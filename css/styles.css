@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #0099FF, #0099FF); /* Cambiado a azul degradado */
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  max-width: 600px;
+}
+
+.banner {
+  background: linear-gradient(to right, #ffffff, #a5f3fc); /* Fondo degradado bonito azul */
+  padding: 10px;
+  color: #0099FF; /* Color ajustado al fondo */
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+input {
+  padding: 10px;
+  width: calc(100% - 22px);
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0099FF; /* Cambiado el color del botón */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  transition: background-color 0.3s ease; /* Transición para suavizar el cambio */
+}
+
+#searchButton:hover {
+  background-color: #0077CC; /* Cambio de color al pasar el cursor */
+}
+
+.lyrics-box {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 10px;
+  width: calc(100% - 42px);
+  max-height: 400px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
